@@ -1,0 +1,27 @@
+bq extract --destination_format CSV \
+bigquery-public-data:thelook_ecommerce.products \
+gs://dataset_ecommerce/products/products.csv
+
+bq extract --destination_format CSV \
+bigquery-public-data:thelook_ecommerce.orders \
+gs://dataset_ecommerce/orders/orders.csv
+
+bq extract --destination_format CSV \
+bigquery-public-data:thelook_ecommerce.order_items \
+gs://dataset_ecommerce/order_items/order_items.csv
+
+bq extract --destination_format CSV \
+bigquery-public-data:thelook_ecommerce.users \
+gs://dataset_ecommerce/users/users.csv
+
+bq extract --destination_format CSV \
+bigquery-public-data:thelook_ecommerce.inventory_items \
+gs://dataset_ecommerce/inventory_items/inventory_items.csv
+
+bq extract --destination_format CSV \
+bigquery-public-data:thelook_ecommerce.events \
+gs://dataset_ecommerce/events/events.csv
+
+bq extract --destination_format CSV \
+bigquery-public-data:thelook_ecommerce.distribution_centers \
+gs://dataset_ecommerce/distribution_centers/distribution_centers.csv
