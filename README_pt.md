@@ -22,7 +22,7 @@ Todas as consultas Hive foram rodadas através da **VM do cluster**.
 - **Google BigQuery** (dataset público *theLook eCommerce*)  
 - **Google Cloud Storage** (armazenamento dos CSVs)  
 - **Hadoop / Hive** no **Dataproc (GCP)**  
-- **SQL**  
+- **HiveQL**  
 
 ---
 
