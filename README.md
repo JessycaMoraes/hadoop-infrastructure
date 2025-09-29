@@ -21,7 +21,7 @@ The infrastructure was deployed on a **Hadoop cluster created in Dataproc (Googl
 - **Google BigQuery** (public dataset theLook eCommerce)  
 - **Google Cloud Storage** (CSV storage) 
 - **Hadoop / Hive** on **Dataproc (GCP)**
-- **SQL**  
+- **HiveQL**  
 
 ---
 
